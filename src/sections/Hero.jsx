@@ -1,9 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import Button from "../components/Button";
-import Heroexperience from "../components/HeroModels/Heroexperience";
 import { words } from "../constants";
 import gsap from "gsap";
-import AnimatedCounter from "../components/AnimatedCounter";
 import Spline from "@splinetool/react-spline";
 
 const Hero = () => {
@@ -68,10 +66,7 @@ const Hero = () => {
 
         {/* -------------- RightSide Content */}
         <figure>
-          {/* <div className="hero-3d-layout"> */}
-            {/* <Heroexperience /> */}
              <Spline className="hidden xl:block absolute xl:right-[-28%] right-0 top-[-20%] lg:top-0" scene="https://prod.spline.design/TJDfBXwYyLCxopEl/scene.splinecode" />
-          {/* </div> */}
         </figure>
       </div>
 
