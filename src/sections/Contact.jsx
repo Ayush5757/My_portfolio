@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import TitleHeader from "../components/TitleHeader";
-import ContactExperience from "../components/models/contact/ContactExperience";
 import Spline from "@splinetool/react-spline";
 import toast, { Toaster } from 'react-hot-toast';
 
