@@ -107,7 +107,7 @@ const Contact = () => {
                 </div>
 
                 <button type="submit">
-                  <div className="cta-button group bg-gray-200">
+                  <div className="px-4 py-4 text-gray-800 rounded-lg hover:cursor-pointer font-bold group bg-gray-200">
                     {/* <div className="bg-circle" /> */}
                     <span className="text">
                       {loading ? "Sending..." : "Send Message"}
