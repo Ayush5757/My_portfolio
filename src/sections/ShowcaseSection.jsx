@@ -65,7 +65,7 @@ const ShowcaseSection = () => {
             <div className="image-wrapper">
               <YouTube videoId="EygRfagepqs"  className="w-full h-[100%] sm:h-[500px]"  opts={opts}/>
             </div>
-            <div className="text-content">
+            <div className="text-content mt-10">
               <h2>POS Software Solution for Cafes and Hotels</h2>
               <p className="text-white-50 md: text-md">
                 I built a comprehensive POS (Point of Sale) software tailored
