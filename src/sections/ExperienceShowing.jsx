@@ -40,7 +40,7 @@ const ExperienceShowing = () => {
             <img src="/images/torinitback.png" alt="" srcset="" />
           </div>
         </div>
-        <div className=" w-[80vw] m-auto font-semibold text-xs lg:text-sm lg:text-md mt-10 px-5 lg:px-30 text-center">
+        <div className=" w-[80vw] m-auto font-semibold text-sm lg:text-md mt-10 px-5 lg:px-30 text-center">
           <div className="text-start text-gray-300 border-b-1 border-gray-900 p-5">
             Venue Management System Worked on a web-based venue booking and
             management system. The frontend was built using React.js, while the

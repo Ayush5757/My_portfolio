@@ -46,7 +46,7 @@ const ShowcaseSection = () => {
   }, []);
   const opts = {
     width: "100%",
-    height: "500",
+    height: "100%",
     playerVars: {
       autoplay: 1,
       mute: 1,
@@ -63,7 +63,7 @@ const ShowcaseSection = () => {
           {/* left */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <YouTube videoId="EygRfagepqs" opts={opts} />
+              <YouTube videoId="EygRfagepqs"  className="w-full h-[100%] sm:h-[500px]"  opts={opts}/>
             </div>
             <div className="text-content">
               <h2>POS Software Solution for Cafes and Hotels</h2>
