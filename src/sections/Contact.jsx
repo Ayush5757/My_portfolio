@@ -107,11 +107,11 @@ const Contact = () => {
                 </div>
 
                 <button type="submit">
-                  <div className="cta-button group">
+                  <div className="cta-button group bg-gray-200">
                     {/* <div className="bg-circle" /> */}
-                    <p className="text">
+                    <span className="text">
                       {loading ? "Sending..." : "Send Message"}
-                    </p>
+                    </span>
                   </div>
                 </button>
               </form>
